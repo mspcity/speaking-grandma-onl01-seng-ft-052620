@@ -4,6 +4,8 @@ def speak_to_grandma(string)
   binding.pry
   if string == 'I LOVE YOU GRANDMA!'
     'I LOVE YOU TOO PUMPKIN!'
+  elsif string != string.upcase
+  else NO, NOT SINCE 1938!
   end
 end
 # Whatever you say to grandma, she should respond with
